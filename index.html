@@ -77,7 +77,7 @@
     </nav>
 
     <!-- Slider Carousel   -->
-    <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
+    <div class="carousel mt-8 w-full lg:h-[550px] bg-bike-primary-bg">
       <!-- Slide-1  -->
       <div id="slide1" class="carousel-item relative w-full">
         <div class="flex flex-col lg:flex-row lg:p-24">
@@ -152,14 +152,14 @@
      <section></section>
 
      <!-- Latest Bike  -->
-      <section class="my-24">
-        <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
+      <section class="my-32">
+        <h3 class="text-5xl font-semibold text-center mb-12">Latest Bikes</h3>
         <!-- Cards  -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           <!-- card 1  -->
           <div class="card bg-base-100 shadow-xl">
             <figure>
-              <img
+              <img class="w-full p-8"
                 src="images/others/latest1.png"
                 alt="Shoes" />
             </figure>
@@ -175,7 +175,7 @@
           <!-- card 2  -->
           <div class="card bg-base-100 shadow-xl">
             <figure>
-              <img
+              <img class="w-full p-8"
                 src="images/others/latest2.png"
                 alt="Shoes" />
             </figure>
@@ -191,7 +191,7 @@
           <!-- card 3  -->
           <div class="card bg-base-100 shadow-xl">
             <figure>
-              <img
+              <img class="w-full p-8"
                 src="images/others/latest3.png"
                 alt="Shoes" />
             </figure>
@@ -206,11 +206,94 @@
 
         </div>
       </section>
+
+      <!-- Happy Clients Homework-->
+       <section></section>
+
+       <!-- FAQ -->
+        <section class="my-32">
+          <h3 class="text-5xl font-semibold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="images/others/faq.png"
+                class="w-full rounded-lg" />
+                <!-- Accordion  -->
+                <div class="space-y-5">
+                  <div class="collapse collapse-arrow border border-blue-200">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What are the most important things I should know about riding a bike?</div>
+                    <div class="collapse-content">
+                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a new one?</div>
+                    <div class="collapse-content">
+                      <p>Check the manufacture date on the helmet's label. Most helmet manufacturers recommend replacing your helmet every 3-5 years due to degradation of materials. If your helmet has been involved in a crash, replace it immediately.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                    <div class="collapse-content">
+                      <p>Always wear a properly fitted helmet. Follow traffic laws, signs, and signals. Ride with the flow of traffic, use hand signals, and make sure your bike is in good working condition. Stay alert, avoid distractions, and use bike lanes when available. Consider wearing high-visibility clothing.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                    <div class="collapse-content">
+                      <p>Always wear a properly fitted helmet. Follow traffic laws, signs, and signals. Ride with the flow of traffic, use hand signals, and make sure your bike is in good working condition. Stay alert, avoid distractions, and use bike lanes when available. Consider wearing high-visibility clothing.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">When shouldn't I ride my bike?</div>
+                    <div class="collapse-content">
+                      <p>When you're feeling tired and sleepy, also when you've consumed plenty of alcohol.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
   </main>
 
 
   <!-- Footer Section  -->
-  <footer></footer>
+  <footer class="footer bg-black text-neutral-content p-10 content-evenly">
+    <div class="container mx-auto flex justify-around items-center">
+      <div>
+        <ul class="flex flex-wrap space-x-6 mb-4">
+          <li><a href="#">Download Now</a></li>
+          <li><a href="#">License</a></li>
+        </ul>
+        <ul class="flex flex-wrap space-x-6 mb-4">
+          <li><a href="">About</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+        <div class="mt-8 text-gray-400 text-left text-sm">
+          © 2020 bike. All rights reserved
+        </div>
+      
+      </div>
+      
+    </div>
+    <nav>
+      <h6 class="footer-title">Get The App</h6>
+      <div class="grid grid-cols-1 gap-4">
+        <a><img class="w-36" src="images/others/android.png" alt=""></a>
+        <a><img class="w-36" src="images/others/ios.png" alt=""></a>
+      </div>
+    </nav>
+    
+  </footer>
 </body>
 
 </html>
